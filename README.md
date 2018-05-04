@@ -1,13 +1,8 @@
 yii2-lightboxedimage
 ===================
 
-[![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://github.com/wbraganca/yii2-dynamicform/releases)
-[![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-dynamicform)
-
-
-Yii2 framework widget for lightboxed images
-It's extension is wrapper for javascript lightbox coded by [Lokesh Dakar](https://github.com/lokesh)
+Yii2 framework widget for lightboxed images.
+It extension is wrapper for javascript lightbox coded by [Lokesh Dakar](https://github.com/lokesh)
 
 ![yii2-lightboxedimage](https://image.ibb.co/j2p7Dn/image.png)
 
@@ -34,7 +29,7 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-###View
+### View
 
 ```php
 	<?= LiteboxedImage::widget([
@@ -56,16 +51,16 @@ Usage
 	]); ?>
 ```
 
-###Widget options 
+### Widget options 
 	
-	string src' image source path
-	string alt' alternate image specified text 
-	string title' image title in lightbox
-	string lightboxid' lightbox id
-	string lightboxClass' lightbox class 
-	string lightboxStyle' lightbox inline styles
-	string imageId' image container id
-	string imageClass' image container class
-	string imageStyle' image container inline style
+	src image source path
+	alt alternate image specified text 
+	title image title in lightbox
+	lightboxid lightbox id
+	lightboxClass lightbox class 
+	lightboxStyle lightbox inline styles
+	imageId image container id
+	imageClass image container class
+	imageStyle image container inline style
 
 Client options you can see [here](http://lokeshdhakar.com/projects/lightbox2/#options)
