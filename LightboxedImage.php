@@ -26,7 +26,7 @@ use d1soft\widgets\LightboxedImageAsset;
  *		 ], 
  *		 'clientOptions' => [
  *			'resizeDuration' => 200,
-            'wrapAround' => true
+ *          'wrapAround' => true
  *		 ]
  *   ]);
  * ```
@@ -103,12 +103,12 @@ class LightboxedImage extends \yii\base\Widget
 			$this->options['lightboxId'] = $id;
 		}
 		
-		if(isset($this->options['title']){
+		if(isset($this->options['title'])){
 			$this->options['data']['title'] = $options['title'];
-			unset($this->options['title'])
+			unset($this->options['title']);
 		}
 		
-		if(isset($this->options['alt']){
+		if(isset($this->options['alt'])){
 			$this->options['data']['alt'] = $options['alt'];
 			unset($this->options['alt']);
 		}
