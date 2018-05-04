@@ -1,0 +1,14 @@
+{
+    "name": "d1soft/yii2-lightboxedimage",
+    "description": "Yii2 widget to create lightboxed images",
+    "type": "package",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mark Ermolaev",
+            "email": "cloudma001@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
