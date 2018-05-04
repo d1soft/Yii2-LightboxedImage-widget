@@ -29,7 +29,7 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-### View
+## View
 
 ```php
 	<?= LiteboxedImage::widget([
@@ -51,16 +51,41 @@ Usage
 	]); ?>
 ```
 
-### Widget options 
-	
-	src image source path
-	alt alternate image specified text 
-	title image title in lightbox
-	lightboxid lightbox id
-	lightboxClass lightbox class 
-	lightboxStyle lightbox inline styles
-	imageId image container id
-	imageClass image container class
-	imageStyle image container inline style
+## Widget options 
 
+### src
+Image source path
+
+### alt
+_default:_ `''`
+Alternate image specified text 
+
+### title
+_default:_ `''`
+Title image title in lightbox
+
+### lightboxid
+Lightbox id
+
+### lightboxClass
+_default:_ `''`
+Lightbox class 
+
+### lightboxStyle
+_default:_ `''`
+Lightbox inline styles
+
+### imageId
+_default:_ `''`
+Image container id
+
+### imageClass
+_default:_ `''`
+Image container class
+
+### imageStyle
+_default:_ `''`
+Image container inline style
+
+## Client options 
 Client options you can see [here](http://lokeshdhakar.com/projects/lightbox2/#options)
