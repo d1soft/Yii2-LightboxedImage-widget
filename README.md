@@ -1,7 +1,7 @@
 yii2-lightboxedimage
 ===================
 
-Yii2 framework widget for lightboxed images.
+Yii2 framework widget for lightboxed images.  
 It extension is wrapper for javascript lightbox coded by [Lokesh Dakar](https://github.com/lokesh)
 
 ![yii2-lightboxedimage](https://image.ibb.co/j2p7Dn/image.png)
@@ -57,35 +57,35 @@ Usage
 Image source path
 
 ### alt
-_default:_ `''`
+_default:_ `''`  
 Alternate image specified text 
 
 ### title
-_default:_ `''`
+_default:_ `''`  
 Title image title in lightbox
 
 ### lightboxid
 Lightbox id
 
 ### lightboxClass
-_default:_ `''`
+_default:_ `''`  
 Lightbox class 
 
 ### lightboxStyle
-_default:_ `''`
+_default:_ `''`  
 Lightbox inline styles
 
 ### imageId
-_default:_ `''`
+_default:_ `''`  
 Image container id
 
 ### imageClass
-_default:_ `''`
+_default:_ `''`  
 Image container class
 
 ### imageStyle
-_default:_ `''`
+_default:_ `''`  
 Image container inline style
 
-## Client options 
+## Client options  
 Client options you can see [here](http://lokeshdhakar.com/projects/lightbox2/#options)
