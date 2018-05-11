@@ -64,8 +64,8 @@ class LightboxedImage extends \yii\base\Widget
         LightboxedImageAsset::register($view);
 		$options = Json::encode($this->clientOptions);
         $clientScript = "lightbox.option($options)";
-        $view->registerJs($clientScript);
-		parent::init();
+    	$view->registerJs($clientScript);
+	    parent::init();
     }
 	
     /**
