@@ -33,7 +33,7 @@ Usage
 
 ```php
 	<?= LiteboxedImage::widget([
-		 'options' => [
+		'options' => [
 			'src' => '/path/to/image.jpg',
 			'lightboxId' => 'lightBox',
 			'lightboxClass' => 'lightBoxClass',
@@ -46,7 +46,7 @@ Usage
 		 ], 
 		 'clientOptions' => [
 			'resizeDuration' => 200,
-		   'wrapAround' => true
+			'wrapAround' => true
 		 ]
 	]); ?>
 ```
@@ -62,7 +62,7 @@ Alternate image specified text
 
 ### title
 _default:_ `''`  
-Title image title in lightbox
+Title image in lightbox
 
 ### lightboxid
 Lightbox id
